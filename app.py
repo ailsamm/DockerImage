@@ -23,8 +23,3 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     return 'Hello World! I have been seen {} times.\n'.format(count)
-
-
-@app.route('/austin')
-def woah():
-    return 'I love you, Austin.\n'
